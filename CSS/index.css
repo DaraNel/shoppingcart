@@ -1,0 +1,36 @@
+body {
+    background-color: #F5F3FF;
+}
+.empty-top {
+    height: 20px;
+    width: 40%;
+    background-color: #5C4D74;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+.items {
+    /* height: 100px; */
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    color: #5C4D74;
+    font-weight: bold;
+}
+.add-cart {
+    color: #5C4D74;
+    font-weight: bold;
+    margin-left: 70%;
+    margin-bottom: 5px;
+}
+.price {
+    margin-left: 40px;
+}
+p {
+    margin-left: 20%;
+}
+.quantity {
+    margin-left: 100px;
+}
+input {
+    width: 15px;
+}
