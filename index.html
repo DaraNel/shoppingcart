@@ -18,12 +18,16 @@
             <div class="col-md-2 side-bar">
                 <div class="side">
                     <div class="shopping-cart-text">
-                        <h3>Shopping Cart</h3>
+                        <h3>Shopping Cart</h3  >
                     </div>
 
                     <hr class="small-line"/>
                     <img src="IMAGES\cart.png" height="200px" width="200px" />
-                    <button type="button" class="btn btn-light">
+                    <button 
+                    onclick="changeView()"
+                    id="changeTxt" 
+                    type="button"
+                    class="btn btn-light">
                         View Shopping cart
                     </button>
                     <hr class="small-line" />
@@ -34,7 +38,7 @@
                     placeholder="search" aria-label="search" />
                     <span class= "fas fa-search"></span>
                     <hr />
-        
+                    <div id="viewShoppingCart">
             <div class="empty-top"></div>
             <div class="items">
                 <p>Item name: T-Shirt <span class="quantity"><label for="Quanity:"> Quantity</label><input type="text"></span></p>
@@ -52,8 +56,9 @@
                 <p>Item name: Jeans <span class="quantity"><label for="Quanity:"></label>Quantity <input type="text"></span></p>
                 <p>price: <span class="price">  N6000</span></p>
                 <button class="add-cart">add to cart</button>
+            </div>
                 </div>
-
+                <div id="selectShoppingCart">
             <div class="empty-top"></div>
             <div class="items">
                 <table class="table">
@@ -84,11 +89,12 @@
             </div>
         </div>
         </div>
+    </div>
     </body>
     
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+        <script src="C:\Users\cs00109\Desktop\shopping cart\JS\index.js"></script>
 </html>
